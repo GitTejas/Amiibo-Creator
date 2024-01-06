@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Super Secret AmiiBros.</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script defer type="text/javascript" src="src/index.js"></script>
+  </head>
+  <body>
+
+    <div id="amiibo-header">
+        <img src="https://i.ibb.co/19QmtKf/amiiboheader.png" 
+        alt="amiibo-header" 
+        />
+    </div>
+
+    <div class="amiibo-container">
+        <img src="https://i.ibb.co/BcjLcPC/supersecretlogo.png" class="sslogo" title="Top Secret Organization!">
+
+        <form class="add-amiibo-form" id="add-amiibo-form">
+            <h1>Create An Amiibo!</h1>
+
+            <input 
+            type="text"
+            name="name"
+            value=""
+            placeholder="Enter an amiibo's name..."
+            class="input-text"
+            />
+            <br />
+            <input 
+            type="text" 
+            name="image" 
+            value=""
+            placeholder="Enter an amiibo's image URL..."
+            />
+            <br />
+
+            <textarea 
+            name="use" 
+            placeholder="Enter an amiibo's use..." 
+            class="input-text"
+            ></textarea>
+            <br />
+
+            <br />
+            <input 
+            type="submit"
+            name="submit"
+            value="Create Amiibo"
+            class="submit"
+            />
+        </form>
+        <h3>Who will be the next Smash Bros. Character?</h3>
+        <h3 style="color: rgb(38, 13, 114);">It's all in your hands.</h3>
+    </div>
+    <p style="text-align:center">
+        Show us your best design! <button class="authorized" id="access-btn" onclick="authorize()">Grant Access?</button>
+        Do you have what it takes?</p>
+
+        <div class="filter-amiibo" id="filtering">
+            <select id="filter-select">
+                <option value="default">Default</option>
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+        </div>
+
+        <div id="amiibo-collection"></div>
+</body>
+</html>
