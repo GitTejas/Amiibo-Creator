@@ -1,0 +1,88 @@
+{
+    "amiibo": [
+      {
+        "id": 1,
+        "name": "Diddy Kong",
+        "use": "Diddy gets his guitar for a new taunt.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./diddy-kong-amiibo-super-smash-bros-series",
+        "votes": 198
+      },
+      {
+        "id": 2,
+        "name": "Wolf",
+        "use": "New final smash: Calls Andross, Panther and Pigma.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./wolf-amiibo-super-smash-bros-series",
+        "votes": 201
+      },
+      {
+        "id": 3,
+        "name": "King K. Rool",
+        "use": "The King gets a new taunt calling Crush and Krunk.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./king-k-rool-amiibo-super-smash-bros-series",
+        "votes": 41
+      },
+      {
+        "id": 4,
+        "name": "Falco",
+        "use": "Swoops in spacecraft to save fox is blasted off the map.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./falco-amiibo-super-smash-bros-series",
+        "votes": 24
+      },
+      {
+        "id": 5,
+        "name": "Donkey Kong",
+        "use": "Unleashes a powerful ground pound attack.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./donkey-kong-amiibo-super-smash-bros-series",
+        "votes": 15
+      },
+      {
+        "id": 6,
+        "name": "Captain Falcon",
+        "use": "Speeds through opponents with Falcon Punch.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./captain-falcon-amiibo-super-smash-bros-series",
+        "votes": 76
+      },
+      {
+        "id": 7,
+        "name": "Link",
+        "use": "Uses the Master Sword for powerful sword attacks.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./link-amiibo-super-smash-bros-series",
+        "votes": 12
+      },
+      {
+        "id": 8,
+        "name": "Ridley",
+        "use": "Uses sharp claws and powerful fire attacks.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./ridley-amiibo-super-smash-bros-series",
+        "votes": 5
+      },
+      {
+        "id": 9,
+        "name": "Bowser",
+        "use": "Unleashes fiery breath and powerful shell attacks.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./bowser-amiibo-super-smash-bros-series",
+        "votes": 175
+      },
+      {
+        "id": 10,
+        "name": "Shulk",
+        "use": "Controls the Monado to enhance his abilities.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./shulk-amiibo-super-smash-bros-series",
+        "votes": 52
+      },
+      {
+        "id": 11,
+        "name": "Mega Man",
+        "use": "Utilizes various weapons from his games.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./mega-man-amiibo-super-smash-bros-series",
+        "votes": 26
+      },
+      {
+        "id": 12,
+        "name": "Cloud",
+        "use": "Wields a giant sword and summons Limit Break attacks.",
+        "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./cloud-amiibo-super-smash-bros-series",
+        "votes": 22
+      }
+    ]
+  }
