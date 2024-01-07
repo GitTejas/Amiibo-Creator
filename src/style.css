@@ -22,6 +22,21 @@ body {
   display: none;
 }
 
+.figure {
+  display: grid;
+  border: 2px solid #3498db; /* Border color */
+  border-radius: 10px; /* Border radius for rounded corners */
+  padding: 10px; /* Padding for inner content */
+  margin: 10px; /* Margin to separate figures */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  text-align: center; /* Center the content within the figure */
+}
+
+.figure:hover {
+  border-color: #e74c3c; /* Border color on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
 .amiibocard {
   text-align: center;
   border: grey solid 1px;
@@ -116,3 +131,4 @@ button:hover {
   align-self: center;
   margin-left: auto;
 }
+

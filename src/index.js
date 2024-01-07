@@ -20,7 +20,7 @@ const amiiboContainer = document.querySelector(".amiibo-container");
 accessButton.addEventListener('click', () => {
   grantAccess= !grantAccess;
   amiiboContainer.style.display = grantAccess ? 'none' : 'flex';
-  amiiboCollection.style.display = grantAccess ? 'none' : 'inline-block';
+  amiiboCollection.style.display = grantAccess ? 'none' : 'grid';
 })
 
 //Authorize button style and text change
