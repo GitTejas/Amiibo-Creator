@@ -12,7 +12,6 @@ const headers = {
 let amiiboList = [];
 
 
-//Secret Form Access
 let grantAccess = true;
 const accessButton = document.getElementById('access-btn');
 const amiiboContainer = document.querySelector(".amiibo-container");
@@ -23,17 +22,15 @@ accessButton.addEventListener('click', () => {
   amiiboCollection.style.display = grantAccess ? 'none' : 'grid';
 })
 
-//Authorize button style and text change
 function authorize() {
     accessButton.innerHTML = "Authorized!"
     accessButton.style.backgroundColor = "green"
 }
 
-//Form Event Listener
+
 amiiboForm.addEventListener('submit', addNewAmiibo)
 
 
-//GET FETCH
 fetch(amiiboAPI)
 .then(resp => resp.json())
 .then(json => {
@@ -41,13 +38,11 @@ fetch(amiiboAPI)
     renderAmiibos()
 })
 
-//Describe what renderAmiibos does 
 function renderAmiibos() {
     amiiboCollection.innerHTML = " ";
     amiiboList.forEach(renderAmiibo)
 }
 
-//renderamiibo will have the purpose of creating the figure/card
 function renderAmiibo(amiibo) {
     const figure = document.createElement('div')
     figure.classList.add('figure')
@@ -68,7 +63,6 @@ function renderAmiibo(amiibo) {
 }
 
 
-//Adding new amiibo via form submit event listener function
 function addNewAmiibo(event){
     event.preventDefault()
     const form = event.target
@@ -79,7 +73,6 @@ function addNewAmiibo(event){
         votes: 0
     }
 
-    //POST FETCH
     fetch(amiiboAPI, {
         headers,
         method: "POST",
@@ -95,11 +88,9 @@ function addNewAmiibo(event){
     })
 }
 
-//Vote Button Event Listener for each unique Amiibo ID
 function upVotes(id) {
     const amiiboVotes = amiiboList.find(amiibo => amiibo.id === id)
 
-    //PATCH FETCH
     fetch(`${amiiboAPI}/${id}`, {
         headers,
         method: "PATCH",
@@ -115,14 +106,11 @@ function upVotes(id) {
     })
 }
 
-//Filter Function
 function filterAmiibos(option) {
 
     currentFilterOption = option
 
     let sortedAmiibos
-
-    //Switch Case ternary
 
     switch(option) {
         case 'asc':
@@ -139,8 +127,6 @@ function filterAmiibos(option) {
     sortedAmiibos.forEach(renderAmiibo)
 }
 
-
-//Filter Event Listener
 const filter = document.getElementById('filter-select')
 filter.addEventListener('change', () => {
     const selectedOption = filter.value
