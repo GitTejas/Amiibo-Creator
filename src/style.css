@@ -24,17 +24,24 @@ body {
 
 .figure {
   display: grid;
-  border: 2px solid #3498db; /* Border color */
-  border-radius: 10px; /* Border radius for rounded corners */
-  padding: 10px; /* Padding for inner content */
-  margin: 10px; /* Margin to separate figures */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
-  text-align: center; /* Center the content within the figure */
+  border: 2px groove #3498db;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: linear-gradient(to right, #fefcff, #fbfdff); /* Teal gradient background */
 }
 
 .figure:hover {
-  border-color: #e74c3c; /* Border color on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  border-color: #f200ff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.amiibo-model {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
 }
 
 .amiibocard {
@@ -48,11 +55,6 @@ body {
   box-shadow: 3px 4px #e04b52
 }
 
-.amiibo-model {
-  justify-self: center;
-  height: 12rem;
-  width: auto;
-}
 
 button {
   position: relative;
