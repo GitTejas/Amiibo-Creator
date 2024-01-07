@@ -36,13 +36,15 @@ Nintendo: Special thanks to Nintendo for providing the Amiibo images used in thi
 ## Contributing
 Contribute to Super Secret AmiiBros. by submitting bugs, feature requests, or pull requests. Let's make the AmiiBros community even better!
 
+## Navigate the App and turn into GIF. Put in README
+
+
+
 ## Blog Post | Video URL
 - Blog must be 750+ words (approximately 3-5 minute read time)
 - Must be about a technical aspect related to the cirriculum/phase
 - Blog must include code snippets or screenshots
 - Good grammar!
-
-## Navigate the App and turn into GIF. Put in README
 
 
 ## Create a 3 Minute Video Walkthrough and Post to YouTube (Unlisted)
