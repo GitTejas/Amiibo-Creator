@@ -18,8 +18,9 @@ body {
 }
 
 #amiibo-collection {
-  margin: 2rem;
+  margin: 4rem;
   display: none;
+  background-color: rgb(187, 223, 255);
 }
 
 .figure {
@@ -27,7 +28,7 @@ body {
   border: 2px groove #3498db;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   background: linear-gradient(to right, #fefcff, #fbfdff);
@@ -61,15 +62,6 @@ button:hover {
   background-color: rgb(167, 193, 255);
   border: #e04b52 solid 1px;
   color: #fcf00c;
-}
-
-.display-amiibos {
-  padding: 1rem;
-  width: stretch;
-  height: auto;
-  display: block;
-  background: #515DA2;
-  opacity: .8;
 }
 
 .amiibo-container {
