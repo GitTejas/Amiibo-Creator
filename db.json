@@ -5,14 +5,14 @@
       "name": "Diddy Kong",
       "use": "Diddy gets his guitar for a new taunt.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./diddy-kong-amiibo-super-smash-bros-series",
-      "votes": 15
+      "votes": 32
     },
     {
       "id": 2,
       "name": "Wolf",
       "use": "New final smash: Calls Andross, Panther and Pigma.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./wolf-amiibo-super-smash-bros-series",
-      "votes": 21
+      "votes": 35
     },
     {
       "id": 3,
@@ -26,14 +26,14 @@
       "name": "Falco",
       "use": "Swoops in spacecraft to save fox is blasted off the map.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./falco-amiibo-super-smash-bros-series",
-      "votes": 24
+      "votes": 27
     },
     {
       "id": 5,
       "name": "Donkey Kong",
       "use": "Unleashes a powerful ground pound attack.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./donkey-kong-amiibo-super-smash-bros-series",
-      "votes": 11
+      "votes": 19
     },
     {
       "id": 6,
@@ -47,21 +47,21 @@
       "name": "Link",
       "use": "Uses the Master Sword for powerful sword attacks.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./link-amiibo-super-smash-bros-series",
-      "votes": 31
+      "votes": 34
     },
     {
       "id": 8,
       "name": "Ridley",
       "use": "Uses sharp claws and powerful fire attacks.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./ridley-amiibo-super-smash-bros-series",
-      "votes": 52
+      "votes": 55
     },
     {
       "id": 9,
       "name": "Bowser",
       "use": "Unleashes fiery breath and powerful shell attacks.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./bowser-amiibo-super-smash-bros-series",
-      "votes": 6
+      "votes": 9
     },
     {
       "id": 10,
@@ -75,19 +75,20 @@
       "name": "Mega Man",
       "use": "Utilizes various weapons from his games.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./mega-man-amiibo-super-smash-bros-series",
-      "votes": 12
+      "votes": 13
     },
     {
       "id": 12,
       "name": "Cloud",
       "use": "Wields a giant sword and summons Limit Break attacks.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./cloud-amiibo-super-smash-bros-series",
-      "votes": 29
+      "votes": 33
     },
     {
       "name": "Slash Beast",
       "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/93289c8e-7cdc-4ad2-9b54-bad46b5f85ae/ddysktr-b4ded677-709b-4ed6-8513-14e774a1ff9b.png/v1/fill/w_966,h_827/slash_beast_mega_man_x4_by_luigicuau10_ddysktr-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODc3IiwicGF0aCI6IlwvZlwvOTMyODljOGUtN2NkYy00YWQyLTliNTQtYmFkNDZiNWY4NWFlXC9kZHlza3RyLWI0ZGVkNjc3LTcwOWItNGVkNi04NTEzLTE0ZTc3NGExZmY5Yi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nBZwNBrSxr7LHen760QLXGxH9aFiA4-mBqFSa-zoKSc",
-      "use": "Slashes",
+      "use": "Berserk Slashes",
+      "votes": 6,
       "id": 13
     }
   ]

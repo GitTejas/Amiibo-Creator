@@ -2,6 +2,8 @@ const amiiboAPI = 'http://localhost:3000/amiibo'
 const amiiboCollection = document.getElementById('amiibo-collection')
 const amiiboForm = document.getElementById('add-amiibo-form')
 
+let currentFilterOption = 'default'
+
 const headers = {
      Accept: "application/json",
     "Content-Type": "application/json",
@@ -87,6 +89,7 @@ function addNewAmiibo(event){
     .then(json => {
         amiiboList.push(json)
         renderAmiibos()
+        filterAmiibos(currentFilterOption)
     })
 }
 
@@ -99,12 +102,45 @@ function upVotes(id) {
         headers,
         method: "PATCH",
         body: JSON.stringify({
-            votes: amiiboVotes + 1
+            votes: amiiboVotes.votes + 1
         })
     })
     .then(resp => resp.json())
     .then(json => {
         amiiboVotes.votes = json.votes
         renderAmiibos()
+        filterAmiibos(currentFilterOption)
     })
 }
+
+//Filter Function
+function filterAmiibos(option) {
+
+    currentFilterOption = option
+
+    let sortedAmiibos
+
+    //Switch Case ternary
+
+    switch(option) {
+        case 'asc':
+            sortedAmiibos = amiiboList.slice().sort((a, b) => (a.name > b.name ? 1 : -1))
+        break;
+        case 'desc':
+            sortedAmiibos = amiiboList.slice().sort((a, b) => (a.name < b.name ? 1 : -1));
+        break;
+        default:
+        sortedAmiibos = amiiboList.slice()
+    }
+
+    amiiboCollection.innerHTML = " ";
+    sortedAmiibos.forEach(renderAmiibo)
+}
+
+
+//Filter Event Listener
+const filter = document.getElementById('filter-select')
+filter.addEventListener('change', () => {
+    const selectedOption = filter.value
+    filterAmiibos(selectedOption)
+});
