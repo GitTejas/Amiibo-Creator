@@ -40,15 +40,16 @@ Contribute to Super Secret AmiiBros. by submitting bugs, feature requests, or pu
 ![Demo](Phase1ProjectGif.gif)
 
 
+## Create a 3 Minute Video Walkthrough and Post to YouTube (Unlisted)
+- Professionalism
+- Describe the functionality of the APP
+
+
 ## Blog Post | Video URL
 - Blog must be 750+ words (approximately 3-5 minute read time)
 - Must be about a technical aspect related to the cirriculum/phase
 - Blog must include code snippets or screenshots
 - Good grammar!
 
-
-## Create a 3 Minute Video Walkthrough and Post to YouTube (Unlisted)
-- Professionalism
-- Describe the functionality of the APP
 
 
