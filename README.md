@@ -30,7 +30,7 @@ This will start the JSON server, and your Amiibo data will be served from http:/
 Open the App:
 Open index.html in your web browser to launch the Super Secret AmiiBros. app.
 
-## Acknowledgments | Credits
+## Acknowledgments
 Nintendo: Special thanks to Nintendo for providing the Amiibo images used in this app. All images are sourced from Nintendo websites.
 
 ## Contributing
@@ -38,18 +38,5 @@ Contribute to Super Secret AmiiBros. by submitting bugs, feature requests, or pu
 
 ## Navigate the App (Demo)
 ![Demo](Phase1ProjectGif.gif)
-
-
-## Create a 3 Minute Video Walkthrough and Post to YouTube (Unlisted)
-- Professionalism
-- Describe the functionality of the APP
-
-
-## Blog Post | Video URL
-- Blog must be 750+ words (approximately 3-5 minute read time)
-- Must be about a technical aspect related to the cirriculum/phase
-- Blog must include code snippets or screenshots
-- Good grammar!
-
 
 
