@@ -36,8 +36,8 @@ Nintendo: Special thanks to Nintendo for providing the Amiibo images used in thi
 ## Contributing
 Contribute to Super Secret AmiiBros. by submitting bugs, feature requests, or pull requests. Let's make the AmiiBros community even better!
 
-## Navigate the App and turn into GIF. Put in README
-
+## Navigate the App (Demo)
+![Demo](Phase1ProjectGif.gif)
 
 
 ## Blog Post | Video URL

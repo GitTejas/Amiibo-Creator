@@ -5,21 +5,21 @@
       "name": "Diddy Kong",
       "use": "Diddy gets his guitar for a new taunt.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./diddy-kong-amiibo-super-smash-bros-series",
-      "votes": 35
+      "votes": 40
     },
     {
       "id": 2,
       "name": "Wolf",
       "use": "New final smash: Calls Andross, Panther and Pigma.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./wolf-amiibo-super-smash-bros-series",
-      "votes": 38
+      "votes": 41
     },
     {
       "id": 3,
       "name": "King K. Rool",
       "use": "The King gets a new taunt calling Crush and Krunk.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./king-k-rool-amiibo-super-smash-bros-series",
-      "votes": 25
+      "votes": 27
     },
     {
       "id": 4,
@@ -68,7 +68,7 @@
       "name": "Shulk",
       "use": "Controls the Monado to enhance his abilities.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./shulk-amiibo-super-smash-bros-series",
-      "votes": 9
+      "votes": 10
     },
     {
       "id": 11,
@@ -82,7 +82,14 @@
       "name": "Cloud",
       "use": "Wields a giant sword and summons Limit Break attacks.",
       "image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.75/c_scale,w_1400/amiibo/Super%20Smash%20Bros./cloud-amiibo-super-smash-bros-series",
-      "votes": 33
+      "votes": 34
+    },
+    {
+      "name": "Slash Beast",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/93289c8e-7cdc-4ad2-9b54-bad46b5f85ae/ddysktr-b4ded677-709b-4ed6-8513-14e774a1ff9b.png/v1/fill/w_966,h_827/slash_beast_mega_man_x4_by_luigicuau10_ddysktr-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODc3IiwicGF0aCI6IlwvZlwvOTMyODljOGUtN2NkYy00YWQyLTliNTQtYmFkNDZiNWY4NWFlXC9kZHlza3RyLWI0ZGVkNjc3LTcwOWItNGVkNi04NTEzLTE0ZTc3NGExZmY5Yi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nBZwNBrSxr7LHen760QLXGxH9aFiA4-mBqFSa-zoKSc",
+      "use": "Berserking slashes ",
+      "votes": 16,
+      "id": 13
     }
   ]
 }
