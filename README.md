@@ -27,7 +27,7 @@ Pictures credit goes to Nintendo
 
 
 Super Secret AmiiBros.
-Welcome to Super Secret AmiiBros., a frontend web application for managing and voting on your favorite Amiibos from the Super Smash Bros. series. This app allows you to create new Amiibos, vote for your favorites, and filter the Amiibos based on different criteria.
+Welcome to Super Secret AmiiBros., a frontend web application for submitting and voting on your favorite Amiibos from the Super Smash Bros. series. This app allows you to create new Amiibos, vote for your favorites, and filter the Amiibos based on different criteria.
 
 Functionality
 Amiibo Management: Create new Amiibos by filling out the form with a name, image URL, and a description of the Amiibo's use.
@@ -44,19 +44,15 @@ To run the Super Secret AmiiBros. app, follow these steps:
 Clone the Repository:
 
 bash
-Copy code
+Copy SSH code 
 git clone [repository-url]
 cd super-secret-amiibros
-Install Dependencies:
 
-bash
-Copy code
+
+Install Dependencies:
 npm install
 Run the JSON Server:
-
-bash
-Copy code
-npm run json-server
+json-server --watch db.json
 This will start the JSON server, and your Amiibo data will be served from http://localhost:3000/amiibo.
 
 Open the App:
@@ -64,5 +60,7 @@ Open index.html in your web browser to launch the Super Secret AmiiBros. app.
 
 Acknowledgments
 Nintendo: Special thanks to Nintendo for providing the Amiibo images used in this app. All images are sourced from Nintendo's official website.
+
+
 Contributing
-Feel free to contribute to Super Secret AmiiBros. by submitting bug reports, feature requests, or pull requests. Let's make the AmiBros community even more awesome!
+Feel free to contribute to Super Secret AmiiBros. by submitting bug reports, feature requests, or pull requests. Let's make the AmiiBros community even more awesome!
