@@ -30,7 +30,7 @@ body {
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background: linear-gradient(to right, #fefcff, #fbfdff); /* Teal gradient background */
+  background: linear-gradient(to right, #fefcff, #fbfdff);
 }
 
 .figure:hover {
@@ -42,17 +42,6 @@ body {
   justify-self: center;
   height: 12rem;
   width: auto;
-}
-
-.amiibocard {
-  text-align: center;
-  border: grey solid 1px;
-  padding: 1rem;
-  width: 15rem;
-  height: 25rem;
-  display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
 }
 
 
