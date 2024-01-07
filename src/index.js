@@ -90,10 +90,21 @@ function addNewAmiibo(event){
     })
 }
 
-
+//Vote Button Event Listener for each unique Amiibo ID
 function upVotes(id) {
-    const amiiboVoteId = amiiboList.find(amiibo => amiibo.id === id)
+    const amiiboVotes = amiiboList.find(amiibo => amiibo.id === id)
 
-    
-
+    //PATCH FETCH
+    fetch(`${amiiboAPI}/${id}`, {
+        headers,
+        method: "PATCH",
+        body: JSON.stringify({
+            votes: amiiboVotes + 1
+        })
+    })
+    .then(resp => resp.json())
+    .then(json => {
+        amiiboVotes.votes = json.votes
+        renderAmiibos()
+    })
 }
