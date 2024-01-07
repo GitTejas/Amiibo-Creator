@@ -1,9 +1,9 @@
 # Phase 1 Project: Super Secret AmiiBros.
 Super Secret AmiiBros.
-Welcome to Super Secret AmiiBros., a frontend web application for submitting and voting on your favorite Amiibos from the Super Smash Bros. series. This app allows you to create new Amiibos, vote for your favorites, and filter the Amiibos based on different criteria.
+Welcome to Super Secret AmiiBros, a frontend web application for submitting and voting on your favorite Amiibos from the Super Smash Bros. series. This app allows you to submit new Amiibos, vote for your favorites, and filter the Amiibos based on different options. Add your best design and earn votes to prepare your Amiibo for production, as well as getting the character into the upcoming Smash Bros. game!
 
 ## Functionality
-Amiibo Management: Create new Amiibos by filling out the form with a name, image URL, and a description of the Amiibo's use.
+Amiibo Submission: Create new Amiibos by filling out the form with a name, image URL, and a description of the Amiibo's use.
 
 Voting: Cast your vote for your favorite Amiibos by clicking the "VOTE!" button. The app keeps track of the number of votes each Amiibo receives.
 
@@ -21,7 +21,6 @@ Copy SSH code
 git clone [repository-url]
 cd super-secret-amiibros
 
-
 Install Dependencies:
 npm install
 Run the JSON Server:
@@ -31,13 +30,11 @@ This will start the JSON server, and your Amiibo data will be served from http:/
 Open the App:
 Open index.html in your web browser to launch the Super Secret AmiiBros. app.
 
-
 ## Acknowledgments | Credits
-Nintendo: Special thanks to Nintendo for providing the Amiibo images used in this app. All images are sourced from Nintendo's official website.
+Nintendo: Special thanks to Nintendo for providing the Amiibo images used in this app. All images are sourced from Nintendo websites.
 
 ## Contributing
-Feel free to contribute to Super Secret AmiiBros. by submitting bug reports, feature requests, or pull requests. Let's make the AmiiBros community even more awesome!
-
+Contribute to Super Secret AmiiBros. by submitting bugs, feature requests, or pull requests. Let's make the AmiiBros community even better!
 
 ## Blog Post | Video URL
 - Blog must be 750+ words (approximately 3-5 minute read time)
