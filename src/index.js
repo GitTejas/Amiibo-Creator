@@ -90,6 +90,8 @@ function addNewAmiibo(event){
         amiiboList.push(json)
         renderAmiibos()
         filterAmiibos(currentFilterOption)
+
+        form.reset()
     })
 }
 

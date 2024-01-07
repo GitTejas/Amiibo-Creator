@@ -90,6 +90,13 @@
       "use": "Berserk Slashes",
       "votes": 6,
       "id": 13
+    },
+    {
+      "name": "Magma Dragoon",
+      "image": "https://static.wikia.nocookie.net/sonic-nexus/images/f/f2/Magma_Dragoon.png/revision/latest?cb=20220914092058",
+      "use": "Hadouken",
+      "votes": 5,
+      "id": 14
     }
   ]
 }
