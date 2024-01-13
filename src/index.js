@@ -1,47 +1,39 @@
-const amiiboAPI = 'http://localhost:3000/amiibo'
-const amiiboCollection = document.getElementById('amiibo-collection')
-const amiiboForm = document.getElementById('add-amiibo-form')
-
-let currentFilterOption = 'default'
+const amiiboAPI = 'http://localhost:3000/amiibo';
+const amiiboCollection = document.getElementById('amiibo-collection');
+const amiiboForm = document.getElementById('add-amiibo-form');
+const accessButton = document.getElementById('access-btn');
+const amiiboContainer = document.querySelector(".amiibo-container");
+const filter = document.getElementById('filter-select');
 
 const headers = {
-     Accept: "application/json",
-    "Content-Type": "application/json",
-  }
+    Accept: "application/json",
+   "Content-Type": "application/json",
+ };
 
 let amiiboList = [];
+let currentFilterOption = 'default';
 
 
 let grantAccess = true;
-const accessButton = document.getElementById('access-btn');
-const amiiboContainer = document.querySelector(".amiibo-container");
-
 accessButton.addEventListener('click', () => {
   grantAccess= !grantAccess;
   amiiboContainer.style.display = grantAccess ? 'none' : 'flex';
   amiiboCollection.style.display = grantAccess ? 'none' : 'grid';
-})
-
-function authorize() {
-    accessButton.innerHTML = "Authorized!"
-    accessButton.style.backgroundColor = "green"
-}
-
-
-amiiboForm.addEventListener('submit', addNewAmiibo)
-
+  accessButton.innerHTML = "Authorized!";
+  accessButton.style.backgroundColor = "green";
+});
 
 fetch(amiiboAPI)
 .then(resp => resp.json())
 .then(json => {
     amiiboList = json
     renderAmiibos()
-})
+});
 
 function renderAmiibos() {
     amiiboCollection.innerHTML = " ";
     amiiboList.forEach(renderAmiibo)
-}
+};
 
 function renderAmiibo(amiibo) {
     const figure = document.createElement('div')
@@ -57,36 +49,10 @@ function renderAmiibo(amiibo) {
     amiiboCollection.append(figure)
 
     const voteButton = document.getElementById(voteButtonId)
-    voteButton.addEventListener('click', event => {
+    voteButton.addEventListener('click', () => {
         upVotes(amiibo.id)
     })
-}
-
-
-function addNewAmiibo(event){
-    event.preventDefault()
-    const form = event.target
-    const newAmiibo = {
-        name: form.name.value,
-        image: form.image.value,
-        use: form.use.value,
-        votes: 0
-    }
-
-    fetch(amiiboAPI, {
-        headers,
-        method: "POST",
-        body: JSON.stringify(newAmiibo)
-    })
-    .then(resp => resp.json())
-    .then(json => {
-        amiiboList.push(json)
-        renderAmiibos()
-        filterAmiibos(currentFilterOption)
-
-        form.reset()
-    })
-}
+};
 
 function upVotes(id) {
     const amiiboVotes = amiiboList.find(amiibo => amiibo.id === id)
@@ -104,31 +70,52 @@ function upVotes(id) {
         renderAmiibos()
         filterAmiibos(currentFilterOption)
     })
-}
+};
+
+amiiboForm.addEventListener('submit', addNewAmiibo);
+
+function addNewAmiibo(event){
+    event.preventDefault()
+    const form = event.target
+    const newAmiibo = {
+        name: form.name.value,
+        image: form.image.value,
+        use: form.use.value,
+        votes: 0
+    };
+
+    fetch(amiiboAPI, {
+        headers,
+        method: "POST",
+        body: JSON.stringify(newAmiibo)
+    })
+    .then(resp => resp.json())
+    .then(json => {
+        amiiboList.push(json)
+        renderAmiibos()
+        filterAmiibos(currentFilterOption)
+        form.reset()
+    })
+};
+
+filter.addEventListener('change', () => {
+    const selectedOption = filter.value
+    filterAmiibos(selectedOption)
+});
 
 function filterAmiibos(option) {
-
     currentFilterOption = option
-
     let sortedAmiibos
-
     switch(option) {
         case 'asc':
-            sortedAmiibos = amiiboList.slice().sort((a, b) => (a.name > b.name ? 1 : -1))
+            sortedAmiibos = amiiboList.slice().sort((a, b) => (a.name > b.name ? 1 : -1));
         break;
         case 'desc':
             sortedAmiibos = amiiboList.slice().sort((a, b) => (a.name < b.name ? 1 : -1));
         break;
         default:
         sortedAmiibos = amiiboList.slice()
-    }
-
+    };
     amiiboCollection.innerHTML = " ";
     sortedAmiibos.forEach(renderAmiibo)
-}
-
-const filter = document.getElementById('filter-select')
-filter.addEventListener('change', () => {
-    const selectedOption = filter.value
-    filterAmiibos(selectedOption)
-});
+};

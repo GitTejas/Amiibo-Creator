@@ -19,7 +19,8 @@ Clone the Repository:
 bash
 Copy SSH code 
 git clone [repository-url]
-cd super-secret-amiibros
+
+cd phase-1-project
 
 Install Dependencies:
 npm install
@@ -38,5 +39,3 @@ Contribute to Super Secret AmiiBros. by submitting bugs, feature requests, or pu
 
 ## Navigate the App (Demo)
 ![Demo](Phase1ProjectGif.gif)
-
-
