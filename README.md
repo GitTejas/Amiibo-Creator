@@ -1,4 +1,4 @@
-# Phase 1 Project: Super Secret AmiiBros.
+# Phase 1 Project: Amiibo Creator
 Super Secret AmiiBros.
 Welcome to Super Secret AmiiBros, a frontend web application for submitting and voting on your favorite Amiibos from the Super Smash Bros. series. This app allows you to submit new Amiibos, vote for your favorites, and filter the Amiibos based on different options. Add your best design and earn votes to prepare your Amiibo for production, as well as getting the character into the upcoming Smash Bros. game!
 
